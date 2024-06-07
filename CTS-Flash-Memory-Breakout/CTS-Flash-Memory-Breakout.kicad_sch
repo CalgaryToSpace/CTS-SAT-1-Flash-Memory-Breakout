@@ -3,7 +3,10 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(rev "rev1")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x07_Odd_Even"
 			(pin_names
@@ -2048,6 +2051,16 @@
 			)
 		)
 		(uuid "e1f5c252-c541-46b4-b8b1-d822e011da49")
+	)
+	(text "FIXME: LEDs need inline resistors (rev1 errata)\nFIXME: GND should point down, 3V3 should point up\nFIXME: CS net/silkscreen labels should match the CS1/CS2 labels on S70 symbol"
+		(exclude_from_sim no)
+		(at 112.268 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0a30ef9-08d0-457e-9c7a-9f7fa50da4de")
 	)
 	(global_label "SPI_NCS_FLASH0"
 		(shape input)
