@@ -5,8 +5,8 @@
 	(uuid "9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa")
 	(paper "USLetter")
 	(title_block
-		(title "S70FL01GSAGMFI011 Breakout Board")
-		(date "2024-06-08")
+		(title "Flash Module Breakout Board")
+		(date "2024-06-21")
 		(rev "Rev 2")
 	)
 	(lib_symbols
@@ -1236,6 +1236,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Project Lib:S70FL01GSAGMFI011"
 			(pin_names
 				(offset 0.254)
@@ -1935,6 +2037,18 @@
 		(color 0 0 0 0)
 		(uuid "fe89ca8f-4736-4dd8-8988-f09dd42e8ff3")
 	)
+	(no_connect
+		(at 36.83 44.45)
+		(uuid "01cbeec4-d30e-4703-abaf-ca4b615f9b0d")
+	)
+	(no_connect
+		(at 27.94 53.34)
+		(uuid "3695f0f5-bb32-4631-8c37-a4b907891ea4")
+	)
+	(no_connect
+		(at 27.94 44.45)
+		(uuid "d9171d25-81f6-4979-836b-b14216013df7")
+	)
 	(wire
 		(pts
 			(xy 146.05 142.24) (xy 158.75 142.24)
@@ -2631,6 +2745,18 @@
 		)
 		(uuid 6431987c-7c1e-4d5e-a756-92ddd04f4df7)
 	)
+	(rectangle
+		(start 22.86 35.56)
+		(end 44.45 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e20c618-547e-4846-bbfe-750331fc7e54)
+	)
 	(text "LEDs"
 		(exclude_from_sim no)
 		(at 38.608 111.506 0)
@@ -2667,7 +2793,7 @@
 		)
 		(uuid "e1f5c252-c541-46b4-b8b1-d822e011da49")
 	)
-	(global_label "SPI_NCS_FLASH1"
+	(global_label "SPI_NCS_FLASH2"
 		(shape input)
 		(at 34.29 151.13 180)
 		(fields_autoplaced yes)
@@ -2689,7 +2815,7 @@
 			)
 		)
 	)
-	(global_label "SPI_NCS_FLASH0"
+	(global_label "SPI_NCS_FLASH1"
 		(shape input)
 		(at 139.7 134.62 180)
 		(fields_autoplaced yes)
@@ -2777,7 +2903,7 @@
 			)
 		)
 	)
-	(global_label "SPI_NCS_FLASH0"
+	(global_label "SPI_NCS_FLASH1"
 		(shape input)
 		(at 34.29 148.59 180)
 		(fields_autoplaced yes)
@@ -2843,7 +2969,7 @@
 			)
 		)
 	)
-	(global_label "SPI_NCS_FLASH0"
+	(global_label "SPI_NCS_FLASH1"
 		(shape input)
 		(at 91.44 85.09 180)
 		(fields_autoplaced yes)
@@ -2887,7 +3013,7 @@
 			)
 		)
 	)
-	(global_label "SPI_NCS_FLASH1"
+	(global_label "SPI_NCS_FLASH2"
 		(shape input)
 		(at 91.44 82.55 180)
 		(fields_autoplaced yes)
@@ -2909,7 +3035,7 @@
 			)
 		)
 	)
-	(global_label "SPI_NCS_FLASH1"
+	(global_label "SPI_NCS_FLASH2"
 		(shape input)
 		(at 139.7 137.16 180)
 		(fields_autoplaced yes)
@@ -3326,6 +3452,74 @@
 			(project "CTS-Flash-Memory-Breakout"
 				(path "/9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 36.83 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26df423a-1d13-42a6-be32-c903988bb8a6")
+		(property "Reference" "H2"
+			(at 39.37 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 39.37 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 36.83 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c8f026-c9af-43ab-b4cf-6e1b5e1e75f1")
+		)
+		(instances
+			(project "CTS-Flash-Memory-Breakout"
+				(path "/9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4341,6 +4535,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 27.94 50.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc6dcde-7bad-459c-9931-d1d550ffa163")
+		(property "Reference" "H3"
+			(at 30.48 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 27.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1d708b-cc05-458a-82db-29f4d7fc4fea")
+		)
+		(instances
+			(project "CTS-Flash-Memory-Breakout"
+				(path "/9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
 		(at 190.5 80.01 0)
 		(mirror x)
@@ -4423,6 +4685,74 @@
 			(project ""
 				(path "/9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 27.94 41.91 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c16084-af6a-4c4d-a0d2-5a5601e87224")
+		(property "Reference" "H1"
+			(at 30.48 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 27.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20357fc3-f016-4d48-b0f3-add2eae08635")
+		)
+		(instances
+			(project ""
+				(path "/9d2a0b6c-cc79-41b3-8be4-5e021c4ca4aa"
+					(reference "H1")
 					(unit 1)
 				)
 			)

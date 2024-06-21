@@ -8,6 +8,9 @@
 replicate_layout.log
 ~*.lck
 
+# Fabrication Toolkit Output
+production/
+
 
 # Temporary files
 *.000
