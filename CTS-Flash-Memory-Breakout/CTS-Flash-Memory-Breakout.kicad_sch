@@ -2781,6 +2781,26 @@
 		)
 		(uuid "575d84c6-7d4e-4a2b-9927-7c23485647b8")
 	)
+	(text "Any resistor value from\n3k3 to 10k can be used."
+		(exclude_from_sim no)
+		(at 101.346 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e4a4070-82d9-4230-aa83-68540b791e4f")
+	)
+	(text "Any resistor value from\n3k3 to 8k can be used."
+		(exclude_from_sim no)
+		(at 24.892 129.286 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6d5baec-ed16-4838-9173-deabe249f4b7")
+	)
 	(text "Flash Memory Chip"
 		(exclude_from_sim no)
 		(at 128.27 42.926 0)
