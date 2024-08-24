@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Flash Module Breakout Board")
-		(date "2024-06-21")
-		(rev "Rev 2")
+		(date "2024-08-24")
+		(rev "Rev 3")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
